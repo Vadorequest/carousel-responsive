@@ -69,7 +69,7 @@ class Carousel extends Component {
 
               // Do not continue if the required size wasn't found.
               if(typeof imageContainer === 'undefined'){
-                return debug ? `Unable to locate an image using the "${slideSize}" size.` : null;
+                return debug ? `Unable to locate any image the "${slideSize}" size, make sure you provide this size, or change the "slideSize" property.` : null;
               }
 
               return (
