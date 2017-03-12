@@ -10,7 +10,7 @@ const styles = {
   },
 };
 
-class App extends Component {
+class Carousel extends Component {
   render() {
     const { id, className, classes, ...restStyle } = this.props;
 
@@ -26,7 +26,7 @@ class App extends Component {
   }
 }
 
-App.propTypes = {
+Carousel.propTypes = {
   id: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
   classes: PropTypes.object.isRequired,
@@ -36,7 +36,7 @@ App.propTypes = {
   height: PropTypes.string.isRequired,
 };
 
-App.defaultProps = {
+Carousel.defaultProps = {
   id: 'carousel-responsive',
   className: 'carousel-responsive',
   width: '100%', // 100% of parent container
@@ -45,4 +45,4 @@ App.defaultProps = {
 
 export default compose(
   withStyle(styles),
-)(App);
+)(Carousel);

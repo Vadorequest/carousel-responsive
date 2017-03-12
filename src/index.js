@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 
 import './common.css';
 
-import App from './App';
+import Carousel from './Carousel';
 
 ReactDOM.render(
-  <App
+  <Carousel
     backgroundColor="pink"
   />,
   document.getElementById('carousel-container')
