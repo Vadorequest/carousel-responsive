@@ -7,6 +7,7 @@ import Carousel from './Carousel';
 
 ReactDOM.render(
   <Carousel
+    debug={true}
     slides={[
       {
         id: '1',
@@ -79,10 +80,10 @@ ReactDOM.render(
             size: 'large',
             images: [
               {
-                url: "http://static.milibris.com/carousel/sfr-presse/resources/a0b1305b-3442-4852-ae33-bcb9949fc5cf",
+                url: "http://static.milibris.com/carousel/sfr-presse/resources/222839ef-f177-441b-98df-77fdd0773dcd",
               },
               {
-                url: "http://static.milibris.com/carousel/sfr-presse/resources/222839ef-f177-441b-98df-77fdd0773dcd",
+                url: "http://static.milibris.com/carousel/sfr-presse/resources/a0b1305b-3442-4852-ae33-bcb9949fc5cf",
               },
             ],
           }
